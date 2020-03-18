@@ -1,12 +1,12 @@
 
 spring:
   datasource:
-    name: test  #Êı¾İ¿âÃû
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC #url
-    username: root  #ÓÃ»§Ãû
-    password: 123456  #ÃÜÂë
-    driver-class-name: com.mysql.jdbc.Driver  #Êı¾İ¿âÁ´½ÓÇı¶¯
+    name: SPRING_TEST #ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½
+    url: jdbc:mysql://localhost:3306/SPRING_TEST?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC #url
+    username: root  #ï¿½Ã»ï¿½ï¿½ï¿½
+    password: root  #ï¿½ï¿½ï¿½ï¿½
+    driver-class-name: com.mysql.jdbc.Driver  #ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #ÅäÖÃÓ³ÉäÎÄ¼ş
-  type-aliases-package: com.example.test.bean #ÅäÖÃÊµÌåÀà
+  mapper-locations: classpath:mapper/*.xml  #ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½Ä¼ï¿½
+  type-aliases-package: com.example.test.bean #ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½
