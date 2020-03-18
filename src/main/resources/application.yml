@@ -1,12 +1,12 @@
 
 spring:
   datasource:
-    name: SPRING_TEST #���ݿ���
+    name: SPRING_TEST #数据库名
     url: jdbc:mysql://localhost:3306/SPRING_TEST?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC #url
-    username: root  #�û���
-    password: root  #����
-    driver-class-name: com.mysql.jdbc.Driver  #���ݿ���������
+    username: root  #用户名
+    password: root  #密码
+    driver-class-name: com.mysql.jdbc.Driver  #驱动类名
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #����ӳ���ļ�
-  type-aliases-package: com.example.test.bean #����ʵ����
+  mapper-locations: classpath:mapper/*.xml  #映射文件所在目录
+  type-aliases-package: com.example.test.bean #别名包
